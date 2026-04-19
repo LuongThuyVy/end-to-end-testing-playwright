@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Playwright outputs
+test-results/
+playwright-report/
+blob-report/
+
+# Playwright internal
+playwright/.cache/
+playwright/.auth/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
