@@ -8,7 +8,7 @@ test.describe("Flow Authencation", () => {
         await expect(page.getByRole('link', { name: 'Home' })).toBeVisible();
     })
 
-    test("User can register and delete account successfully", async ({ page }) => {
+    test("Test case 1: User can register and delete account successfully", async ({ page }) => {
         await test.step("step 1: Launch browser", async () => {
             //Navigate to url 'http://automationexercise.com'
             await page.goto("http://automationexercise.com");
@@ -86,7 +86,7 @@ test.describe("Flow Authencation", () => {
     })
 
 
-    test("Login User with correct email and password",async({page})=>{
+    test("Test case 2: Login User with correct email and password",async({page})=>{
         await test.step("step 1: Click on 'Signup / Login' button",async()=> {
             await page.click('text=Signup / Login');
         })
